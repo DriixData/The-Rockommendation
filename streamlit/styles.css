@@ -7,6 +7,7 @@ body,
 .stMain,
 .stElementContainer {
     font-family: "Source Code Pro", sans-serif !important;
+    /* font-family: "Open Sans", sans-serif !important; */
 }
 
 h1,
@@ -14,6 +15,8 @@ h2,
 h3,
 h4 {
     font-family: "Open Sans", sans-serif;
+    /* font-family: "Source Code Pro", sans-serif; */
+    color: #fff;
 }
 
 h1 {
@@ -23,6 +26,7 @@ h1 {
 }
 
 h1 span {
+    font-family: "Source Code Pro", sans-serif;
     font-size: 22px;
     color: #777;
     text-transform: uppercase;
@@ -30,26 +34,57 @@ h1 span {
     font-weight: 300;
 }
 
-.stMain {
-    background: url("img/original.jpeg") no-repeat !important;
-    background-position: top center;
+#root,
+.stApp,
+.stAppViewContainer {
+    background: url("/img/original.jpeg") no-repeat top center;
     background-size: cover;
-    /* background-color: #060714; */
 }
 
-/* .stMain a {
-    color: #220e64;
-} */
+section.stMain,
+.stAppViewContainer {
+    background: url("data:img/original.jpeg") no-repeat !important;
+    background-position: top center;
+    background-size: cover;
+    text-align: justify;
+    color: #ddd9e9
+}
 
+.stMain a {
+    text-decoration: none;
+}
 
+.stMain a:hover {
+    text-decoration: underline;
+}
 
 p {
     text-align: justify;
 }
 
+.liste-objectifs li {
+    margin-bottom: 40px;
+}
+
+.stHorizontalBlock {
+    align-items: center;
+}
+
+.stHorizontalBlock div {
+    margin: 0 auto;
+}
+
+.stHorizontalBlock .stColumn:first-child img {
+    width: 90px;
+}
+
 .stImage {
     width: 150px;
 }
+
+
+
+
 
 /* Sidebar */
 
