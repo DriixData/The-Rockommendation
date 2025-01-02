@@ -1,17 +1,5 @@
 import streamlit as st
-from PIL import Image
-# from st_pages import Page, show_pages, add_page_title
-
-# add_page_title()
-
-# show_pages(
-#     [ 
-#         Page("The-rockommendation/streamlit/index.py", "Home", "💾"),
-#         # Page("About.py", "About", "📜"),
-#         # Page("FAQ.py", "FAQ", "❔"),
-#         # Page("Contact.py", "Contact", "💌") 
-#     ]
-# )
+from st_pages import add_page_title, get_nav_from_toml
 
 # Import CSS
 
@@ -27,8 +15,6 @@ st.markdown("---")
 st.html(
     "<p>Notre équipe de Data Analyst a été mandaté par un cinéma dans la Creuse qui se trouve en difficulté voulant passer le cap du digital.</p>"
 )
-
-st.html("<img src='{img}' />")
 
 st.html(
     "<h2>🚀 Objectifs et enjeux :</h2>"
@@ -51,21 +37,13 @@ st.html(
 col1, col2, col3, col4 = st.columns(4)
 
 with col1: 
-    # st.html("<h3>Python</h3>")
     st.image("img/python.png")
-    html_code = """
-    <img src="/img/python.png" alt="Logo Python" />
-    """
-    st.markdown(html_code, unsafe_allow_html=True)
 
 with col2:
-    # st.html("<h3>Pandas</h3>")
     st.image("img/pandas_white.png")
 
 with col3:
-    # st.html("<h3>Scikit Learn</h3")
     st.image("img/scikit-learn.png")
 
 with col4:
-    # st.html("<h3>Streamlit</h3>")
     st.image("https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-lighttext.png")
