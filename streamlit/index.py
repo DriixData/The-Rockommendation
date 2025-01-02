@@ -25,7 +25,7 @@ st.html(
     "<ol class='liste-objectifs'>"
         "<li>Réaliser une <a href='https://google.fr' target='_blank'>étude de marché</a> sur la consommation de cinéma dans la région.</li>"
         "<li>Mettre en avant certains chiffres clés (KPI) comme les acteurs les plus présents, l'âge moyen des acteurs...</li>"
-        "<li>Créer une application de recommandation de film en fonction des appréciations du spectateur.</li>"
+        "<li>Créer une <a href='app'>Application</a> de recommandation de film en fonction des appréciations du spectateur.</li>"
     "</ol>"
 )
 
