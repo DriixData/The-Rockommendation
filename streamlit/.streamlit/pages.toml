@@ -6,7 +6,7 @@ icon = "🏠"
 [[pages]]
 path = "pages/app.py"
 name = "Application"
-icon = "🎬"
+icon = "🍿"
 
 [[pages]]
 path = "pages/KPI.py"
